@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>zhiliangyu</artifactId>
+        <groupId>cn.ttzero</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>zhiliangyu-dalgen</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.dalgen.mybatis-maven-plugin</groupId>
+                <artifactId>mybatis-maven-plugin</artifactId>
+                <version>${dalgen.version}</version>
+                <configuration>
+                    <!-- 可选 不填写 使用默认路径-->
+                    <templateDirectory>./templates</templateDirectory>
+                    <!-- 代码输出路径 -->
+                    <outputDirectory>./src/</outputDirectory>
+                    <!-- 配置文件 -->
+                    <config>./config/config.xml</config>
+                    <!-- 自动复制模板 第一次需要设置为true,后续如果templates中的模板有修改需求需要设置为false否则会自动覆盖 -->
+                    <copyTemplate>false</copyTemplate>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

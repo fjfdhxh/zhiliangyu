@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Apr 24 15:35:10 CST 2019
+mybatis-maven-plugin-1.12.pom>=
+mybatis-maven-plugin-1.12-sources.jar>=
+mybatis-maven-plugin-1.12.jar>=

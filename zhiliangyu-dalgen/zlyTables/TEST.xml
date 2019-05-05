@@ -1,0 +1,25 @@
+<!DOCTYPE table SYSTEM "../config/table-config-1.0.dtd">
+<table sqlname="TEST" physicalName="TEST" remark="TEST">
+    <!--  特殊字符说明  &lt;&gt;   <> -->
+
+    <operation name="insert" paramtype="object" remark="插入表:TEST">
+            <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER">
+                SELECT
+                LAST_INSERT_ID()
+            </selectKey>
+        INSERT INTO TEST(
+            
+            NAME
+        )VALUES(
+            
+            #{name,jdbcType=VARCHAR}
+        )
+    </operation>
+
+    <operation name="getByPrimary" multiplicity="one" remark="根据主键获取数据:TEST">
+        SELECT * FROM TEST
+        WHERE
+        ID = #{id,jdbcType=INTEGER}
+    </operation>
+
+</table>

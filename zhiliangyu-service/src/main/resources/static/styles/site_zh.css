@@ -1,0 +1,2989 @@
+﻿html, body {
+     line-height: 20px;
+     font-family: "微软雅黑 Regular", \5FAE\8F6F\96C5\9ED1, tahoma, sans-serif;
+     font-size:12px;
+     color:#000;
+     background-color: #fff;
+}
+ a {
+     color: #000;
+}
+ a:hover {
+     color:red;
+     text-decoration:underline;
+}
+ .colsg_inner{
+     width:1150px;
+     margin:0 auto;
+}
+ .top{
+     background: url( /Content/image/zh/top_01.jpg) top center no-repeat;
+     height: 128px;
+     position: fixed;
+     z-index: 33;
+     top: 0px;
+     width: 100%;
+}
+ .banner{
+     margin-top: 96px;
+     position: relative;
+     z-index: 3;
+     clear: both;
+}
+ .about{
+     background: url(/Content/image/zh/about_03.jpg ) top center no-repeat;
+     height: 403px;
+}
+ .xiayi{
+     margin-top: 70px;
+}
+ .parduct{
+     background: url( /Content/image/zh/product_03.jpg) top center no-repeat;
+     height: 855px;
+}
+ .db_1{
+     background: #222222;
+     height: 233px;
+}
+.dibu_2{
+margin-top: 80px;
+} 
+/*挂件主体*/
+ #MainNavi107.MainNavi {
+  margin-top: 40px;
+}
+/*一级导航*/
+/*可以设置分割线背景*/
+ #MainNavi107.MainNavi li.parent {
+     height: 49px;
+     float: left;
+     position: relative;
+     z-index: 99;
+}
+/*一级导航链接*/
+ #MainNavi107.MainNavi a.lone_link {
+     display: inline-block;
+     padding: 0 -1px;
+     line-height: 16px;
+     text-align: center;
+     color: #fff;
+     height: 71px;
+     margin: 0 12px;
+     text-decoration: none;
+}
+ #MainNavi107.MainNavi a.lone_link:hover {
+     color: #fbe988;
+     background:url(/Content/image/zh/daohang_2_03.jpg) center no-repeat;
+}
+/*主导航标题*/
+ #MainNavi107.MainNavi a span.navi_title {
+     margin-top: 10px;
+     font-size:14px;
+     font-weight: bold;
+     display: block;
+}
+/*主导航副标题*/
+ #MainNavi107.MainNavi a span.navi_ftitle {
+     display: block;
+}
+/*二级导航*/
+ #MainNavi107.MainNavi .children {
+     display: none;
+     text-align: center;
+     position: absolute;
+     left: 0;
+     top: 100%;
+     white-space: nowrap;
+     width: 100px;
+     z-index: 99 !important;
+     font-weight: bold;
+     background:rgba(33,33,34,0.6);
+}
+/*二级导航li结构*/
+ #MainNavi107.MainNavi .children li {
+     vertical-align: middle;
+     height: 24px;
+     line-height:24px;
+     margin-top: 1px;
+     border-top: 1px solid #fff;
+     *zoom: 1;
+}
+/*二级导航链接*/
+ #MainNavi107.MainNavi .children a {
+    /*height: 28px;
+     line-height: 28px;
+     */
+     color: #fff;
+     padding: 0 10px;
+}
+ #MainNavi107.MainNavi .children a:hover {
+     color: #fff;
+}
+ #MainNavi107.MainNavi .children .item a {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_title {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_ftitle{
+     display: none;
+}
+/*激活的节点*/
+ #MainNavi107.MainNavi li.activelink {
+}
+ /*forSeprateConfigStyles*/ 
+/* banner图片挂件*/
+ #AdverSliderLunbo109.AdverSliderLunbo{
+}
+/* height设置成图片高度 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     height:596px;
+}
+/* 挂件头部,需要标题去掉display:none */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_hd{
+     display:none;
+}
+/* 挂件主体部分 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     overflow: hidden;
+     position: relative;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox {
+     display: none;
+     position: absolute;
+     text-align: center;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-container{
+}
+/* 左右按钮 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous{
+     display:block;
+     width:11px;
+     height:29px;
+     overflow: hidden;
+     text-indent: -9999px;
+     margin-right:5px;
+     position: absolute;
+     top: 50%;
+     margin-top: -15px;
+     z-index: 11;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next {
+     background: url(/Content/app_images/rightArrow.png) no-repeat;
+     right: 10px;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous {
+     background: url(/Content/app_images/leftArrow.png) no-repeat;
+     left: 10px;
+}
+/* 圆角标记 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination {
+     position: absolute;
+     bottom: 10px;
+     z-index: 11;
+     left: 50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li {
+     float: left;
+     margin: 0 1px;
+     position: relative;
+     left: -50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a {
+     display: block;
+     width: 13px;
+     height: 0;
+     padding-top: 13px;
+     background: url(/Content/app_images/pagination.png) no-repeat;
+     float: left;
+     overflow: hidden;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a.active,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a:hover.active {
+     background: url(/Content/app_images/pagination_active.png) no-repeat;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:link,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:visited {
+     color: #333;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:hover,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:active {
+     color: #9e2020;
+}
+/*forSeprateConfigStyles*//*挂件主体*/
+ #LeftNaviExpand177.LeftNaviExpand {
+     width:100%px;
+     margin-top: 60px;
+}
+ #LeftNaviExpand177.LeftNaviExpand li{
+     position:relative;
+     *zoom:1;
+     *vertical-align:top;
+}
+/*头部链接*/
+ #LeftNaviExpand177.LeftNaviExpand .firlinkbx{
+     padding:0 10px;
+     height: 35px;
+     line-height: 35px;
+     background:#342922;
+     *zoom:1;
+     vartical-align:middle;
+}
+ #LeftNaviExpand177.LeftNaviExpand a.lone_link {
+     color: #fff;
+     font-size: 14px;
+     font-weight: bold;
+     margin-left: 10px;
+}
+ #LeftNaviExpand177.LeftNaviExpand a.lone_link:hover {
+     color:#f30;
+}
+/*导航一级链接*/
+ #LeftNaviExpand177.LeftNaviExpand .item1 .firlinkbx{
+     height:30px;
+     line-height:30px;
+     padding:0 20px;
+     background: none;
+     border-bottom: 0;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item1 a{
+     color:#333;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item1 a:hover{
+     color:#f30;
+}
+/*导航二级链接*/
+ #LeftNaviExpand177.LeftNaviExpand .item2{
+     height:28px;
+     line-height:28px;
+     padding:0 10px;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item2 a{
+     color:#333;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item2 a:hover{
+     color:#111 
+}
+ #LeftNaviExpand177.LeftNaviExpand .item1 .expend{
+     border-top-color:#999;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item1 .unexpend{
+     border-bottom-color:#999;
+}
+/*收起时的箭头样式,如不需要展开收起效果，加上display:none;
+ */
+ #LeftNaviExpand177.LeftNaviExpand .expend{
+     position:absolute;
+     height:0;
+     width:0;
+     overflow:hidden;
+     right:10px;
+     top:15px;
+}
+/*展开时的箭头样式,如不需要展开收起效果，加上display:none;
+ */
+ #LeftNaviExpand177.LeftNaviExpand .unexpend{
+     position:absolute;
+     height:0;
+     width:0;
+     overflow:hidden;
+     right:10px;
+     top:10px;
+}
+/*一级链接主体*/
+ #LeftNaviExpand177.LeftNaviExpand ul.children1{
+}
+/*二级链接主体*/
+ #LeftNaviExpand177.LeftNaviExpand ul.children2{
+     background:#fafafa;
+     display:none;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item1{
+     border-bottom:1px solid #dfdfdf;
+}
+ /*forSeprateConfigStyles*//* 插件开始 */
+ #CommPageInfo179.CommPageInfo {
+    
+  margin-top: 60px;
+}
+ #CommPageInfo179.CommPageInfo .newsinfo_Breadcrumbs {
+     height: 30px;
+     line-height: 30px;
+     border-bottom: 1px solid #464646;
+}
+/* 插件头部 */
+ #CommPageInfo179.CommPageInfo .titlehd {
+     float: left;
+}
+/* 插件头部标题 */
+ #CommPageInfo179.CommPageInfo .title {
+     font-size: 14px;
+     font-weight: bold;
+     padding-left: 20px;
+}
+ #CommPageInfo179.CommPageInfo .class_bread {
+     display: none;
+}
+/* 面包屑地址 */
+ #CommPageInfo179.CommPageInfo .mbx_dv {
+     float: right;
+}
+/* 挂件标题 */
+ #CommPageInfo179.CommPageInfo .hd {
+     text-align: center;
+     padding: 10px 0 20px;
+     display: none;
+}
+ #CommPageInfo179.CommPageInfo .aboutnews {
+     text-align: left;
+     padding-bottom: 20px;
+     font-weight: bold;
+}
+ #CommPageInfo179.CommPageInfo .hd .con_title {
+     color: #000;
+     font-size: 26px;
+     font-weight: 800;
+     line-height: 30px;
+     margin-bottom: 6px;
+     display: none;
+}
+ #CommPageInfo179.CommPageInfo .con_subbx {
+     color: #7e7e7e;
+}
+/* 挂件主体 */
+ #CommPageInfo179.CommPageInfo .bd {
+     padding: 0 20px 20px;
+}
+/* 挂件的内容简介 */
+ #CommPageInfo179.CommPageInfo .con_summer {
+     border: 1px solid #dfdfdf;
+     background: #efefef;
+     padding: 20px;
+     color: #666;
+}
+/* 挂件的内容详情 */
+ #CommPageInfo179.CommPageInfo .con_bx {
+     margin-top: 20px;
+}
+/* 图片滚动 */
+ #CommPageInfo179.CommPageInfo .bd_img {
+     width: 720px;
+     margin: 0 auto;
+     position: relative;
+}
+ #CommPageInfo179.CommPageInfo .bd_img_title {
+     line-height: 32px;
+}
+ #CommPageInfo179.CommPageInfo .bd_img_wrap {
+     width: 720px;
+     height: 128px;
+     overflow: hidden;
+}
+ #CommPageInfo179.CommPageInfo .bd_img_wrap ul {
+}
+ #CommPageInfo179.CommPageInfo .bd_img_wrap li {
+     float: left;
+     width: 180px;
+}
+ #CommPageInfo179.CommPageInfo .bd_img_link {
+     text-align: center;
+     display: block;
+     text-align: center;
+}
+ #CommPageInfo179.CommPageInfo .bd_img_link img {
+     width: 140px;
+     height: 100px;
+     border: 1px solid #ccc;
+}
+ #CommPageInfo179.CommPageInfo .bd_img_p {
+     text-align: center;
+     line-height: 26px;
+}
+ #CommPageInfo179.CommPageInfo .bd_img_p a {
+     color: #000;
+}
+ #CommPageInfo179.CommPageInfo .bd_img_p a:hover {
+     color: #f00;
+}
+ #CommPageInfo179.CommPageInfo .bd_img_btn {
+     position: absolute;
+     width: 20px;
+     height: 40px;
+     background: #ccc;
+     text-align: center;
+     line-height: 40px;
+     top: 50%;
+     margin-top: -20px;
+     font-size: 20px;
+     font-weight: bold;
+     color: #000;
+}
+ #CommPageInfo179.CommPageInfo .bd_img_leftBtn {
+     left: -20px;
+}
+ #CommPageInfo179.CommPageInfo .bd_img_rightBtn {
+     right: -20px;
+}
+ #CommPageInfo179.CommPageInfo .textify {
+    /*overflow:hidden;
+     */
+     font-family: Tahoma, Geneva, sans-serif;
+     font-size: 13px;
+     overflow: hidden;
+     position: relative;
+}
+ #CommPageInfo179.CommPageInfo .textify_nav {
+     margin: 10px 0;
+     position: absolute;
+     bottom: 0;
+}
+ #CommPageInfo179.CommPageInfo .textify_nav ul {
+     margin: 0;
+     padding: 0;
+}
+ #CommPageInfo179.CommPageInfo .textify_nav ul li:hover, .textify_nav ul li.selected {
+     background-position: 0 -15px;
+}
+ #CommPageInfo179.CommPageInfo .textify_nav ul li {
+     background-image: url("/Content/app_images/textify_nav.png");
+     background-repeat: no-repeat;
+     float: left;
+     height: 15px;
+     list-style: none outside none;
+     margin-left: 3px;
+     margin-right: 3px;
+     width: 15px;
+     cursor: pointer;
+}
+ /*forSeprateConfigStyles*/ 
+/*挂件主体*/
+ #MainNavi107.MainNavi {
+  margin-top: 40px;
+}
+/*一级导航*/
+/*可以设置分割线背景*/
+ #MainNavi107.MainNavi li.parent {
+     height: 49px;
+     float: left;
+     position: relative;
+     z-index: 99;
+}
+/*一级导航链接*/
+ #MainNavi107.MainNavi a.lone_link {
+     display: inline-block;
+     padding: 0 -1px;
+     line-height: 16px;
+     text-align: center;
+     color: #fff;
+     height: 71px;
+     margin: 0 12px;
+     text-decoration: none;
+}
+ #MainNavi107.MainNavi a.lone_link:hover {
+     color: #fbe988;
+     background:url(/Content/image/zh/daohang_2_03.jpg) center no-repeat;
+}
+/*主导航标题*/
+ #MainNavi107.MainNavi a span.navi_title {
+     margin-top: 10px;
+     font-size:14px;
+     font-weight: bold;
+     display: block;
+}
+/*主导航副标题*/
+ #MainNavi107.MainNavi a span.navi_ftitle {
+     display: block;
+}
+/*二级导航*/
+ #MainNavi107.MainNavi .children {
+     display: none;
+     text-align: center;
+     position: absolute;
+     left: 0;
+     top: 100%;
+     white-space: nowrap;
+     width: 100px;
+     z-index: 99 !important;
+     font-weight: bold;
+     background:rgba(33,33,34,0.6);
+}
+/*二级导航li结构*/
+ #MainNavi107.MainNavi .children li {
+     vertical-align: middle;
+     height: 24px;
+     line-height:24px;
+     margin-top: 1px;
+     border-top: 1px solid #fff;
+     *zoom: 1;
+}
+/*二级导航链接*/
+ #MainNavi107.MainNavi .children a {
+    /*height: 28px;
+     line-height: 28px;
+     */
+     color: #fff;
+     padding: 0 10px;
+}
+ #MainNavi107.MainNavi .children a:hover {
+     color: #fff;
+}
+ #MainNavi107.MainNavi .children .item a {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_title {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_ftitle{
+     display: none;
+}
+/*激活的节点*/
+ #MainNavi107.MainNavi li.activelink {
+}
+ /*forSeprateConfigStyles*/ 
+/* banner图片挂件*/
+ #AdverSliderLunbo109.AdverSliderLunbo{
+}
+/* height设置成图片高度 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     height:596px;
+}
+/* 挂件头部,需要标题去掉display:none */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_hd{
+     display:none;
+}
+/* 挂件主体部分 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     overflow: hidden;
+     position: relative;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox {
+     display: none;
+     position: absolute;
+     text-align: center;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-container{
+}
+/* 左右按钮 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous{
+     display:block;
+     width:11px;
+     height:29px;
+     overflow: hidden;
+     text-indent: -9999px;
+     margin-right:5px;
+     position: absolute;
+     top: 50%;
+     margin-top: -15px;
+     z-index: 11;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next {
+     background: url(/Content/app_images/rightArrow.png) no-repeat;
+     right: 10px;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous {
+     background: url(/Content/app_images/leftArrow.png) no-repeat;
+     left: 10px;
+}
+/* 圆角标记 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination {
+     position: absolute;
+     bottom: 10px;
+     z-index: 11;
+     left: 50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li {
+     float: left;
+     margin: 0 1px;
+     position: relative;
+     left: -50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a {
+     display: block;
+     width: 13px;
+     height: 0;
+     padding-top: 13px;
+     background: url(/Content/app_images/pagination.png) no-repeat;
+     float: left;
+     overflow: hidden;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a.active,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a:hover.active {
+     background: url(/Content/app_images/pagination_active.png) no-repeat;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:link,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:visited {
+     color: #333;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:hover,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:active {
+     color: #9e2020;
+}
+/*forSeprateConfigStyles*//* 挂件开始*/
+ #CommPageAbout115.CommPageAbout {
+     width:100%px;
+  margin-top: 100px;
+}
+/* 挂件头部 */
+ #CommPageAbout115.CommPageAbout .hd {
+     height:30px;
+     line-height:30px;
+     overflow:hidden;
+     padding:0 10px;
+}
+/* 挂件标题 */
+ #CommPageAbout115.CommPageAbout .hd .title {
+     font-size: 24px;
+     font-weight: bold;
+     display: none;
+}
+/* 挂件的更多的样式 */
+ #CommPageAbout115.CommPageAbout .more_link {
+     float:right;
+}
+/* 挂件主体 */
+ #CommPageAbout115.CommPageAbout .bd{
+}
+/* 挂件的图片样式 */
+ #CommPageAbout115.CommPageAbout img {
+     float:left;
+     width:120px;
+     height:120px;
+     margin-right: 10px;
+     display: none;
+}
+ #CommPageAbout115.CommPageAbout .content {
+     padding:10px;
+}
+ /*forSeprateConfigStyles*//*挂件主体*/
+ #ProductMarquee124.ProductMarquee{
+     width:100%px;
+  margin-top: 140px;
+}
+/*头部可以设置头部背景*/
+ #ProductMarquee124.ProductMarquee .Marquee_hd {
+     display: none;
+     height: 30px;
+     line-height: 30px;
+}
+/*头部div*/
+ #ProductMarquee124.ProductMarquee .Marquee_hd{
+     background: #dcdcdc;
+}
+/*头部标题*/
+ #ProductMarquee124.ProductMarquee .Marquee_title{
+     font-size: 14px;
+     font-weight: bold;
+     padding-left:20px;
+}
+/*头部更多链接*/
+ #ProductMarquee124.ProductMarquee .Marquee_hd a {
+     float: right;
+     color: #f30;
+     padding-right:5px;
+}
+/*滚动主体*/
+ #ProductMarquee124.ProductMarquee .Marquee_bd {
+     padding:10px 15px;
+     position:relative;
+     zoom:1;
+}
+/*滚动内部主体用于截断隐藏滚动内容*/
+ #ProductMarquee124.ProductMarquee .Marquee_box{
+     overflow:hidden;
+     width:100%;
+     height:600px;
+     position:relative;
+}
+/*滚动的所有内容ul*/
+ #ProductMarquee124.ProductMarquee .Marquee_lists{
+}
+/*滚动单元元素宽度等于滚动图片padding,border,width之和*/
+ #ProductMarquee124.ProductMarquee .Marquee_li{
+     overflow: hidden;
+     margin-right:40px;
+     width:254px;
+     float:right;
+}
+ #ProductMarquee124.ProductMarquee .Marquee_li .Marquee_imgbx{
+     border:7px solid #1d1d1c;
+     background: #342922;
+     margin-bottom: 20px;
+}
+/*滚动的单个元素*/
+ #ProductMarquee124.ProductMarquee .Marquee_imgbx{
+     overflow: hidden;
+}
+/*滚动图片*/
+ #ProductMarquee124.ProductMarquee .Marquee_img{
+     width: 254px;
+     height:192px;
+     transition: all 1s ease;
+}
+ #ProductMarquee124.ProductMarquee .Marquee_img:hover{
+     display: block;
+     transform:scale(1.2);
+     overflow: hidden;
+}
+/*产品名称*/
+ #ProductMarquee124.ProductMarquee .Marquee_name{
+     position: relative;
+     z-index: 99;
+     text-align: left;
+     line-height:65px;
+}
+ #ProductMarquee124.ProductMarquee .Marquee_version{
+     text-align: center;
+     line-height: 25px;
+}
+ #ProductMarquee124.ProductMarquee .Marquee_link{
+     padding-left: 40px;
+     padding-top: 10px;
+     display: block;
+     color:#a19891;
+     font-size: 14px;
+     font-family: "微软雅黑";
+     transition: all 0.8s ease;
+     background: url(/Content/image/zh/more.jpg) 0 0 repeat;
+}
+ #ProductMarquee124.ProductMarquee .Marquee_link:hover{
+     color:#f4f4f4;
+     background: url( /Content/image/zh/more_h.jpg) 0 0 no-repeat ;
+}
+ #ProductMarquee124.ProductMarquee .jqzoom {
+     display: block;
+}
+ #ProductMarquee124.ProductMarquee .nojqzoom {
+}
+/*设置图片列表放大镜*/
+ .jqzoom {
+     position: relative;
+}
+ .zoomdiv {
+     z-index: 999;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     width: 300px;
+     height: 354px;
+     background: #fff;
+     border: 1px solid #ccc;
+     display: none;
+     text-align: center;
+     overflow: hidden;
+}
+ .zoomdiv img {
+     width: 400px !important;
+     height: 500px !important;
+}
+ .jqZoomPup {
+     z-index: 999;
+     visibility: hidden;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     border: 1px solid #aaa;
+     background: #fff;
+     opacity: 0.5;
+     -moz-opacity: 0.5;
+     -khtml-opacity: 0.5;
+     filter: alpha(Opacity=50);
+}
+/*左右切换箭头*/
+ #ProductMarquee124.ProductMarquee .prev_btn {
+     position:absolute;
+     left:3px;
+     top:50%;
+}
+ #ProductMarquee124.ProductMarquee .next_btn {
+     position:absolute;
+     right:3px;
+     top:50%;
+}
+ /*forSeprateConfigStyles*/ 
+/*挂件主体*/
+ #MainNavi107.MainNavi {
+  margin-top: 40px;
+}
+/*一级导航*/
+/*可以设置分割线背景*/
+ #MainNavi107.MainNavi li.parent {
+     height: 49px;
+     float: left;
+     position: relative;
+     z-index: 99;
+}
+/*一级导航链接*/
+ #MainNavi107.MainNavi a.lone_link {
+     display: inline-block;
+     padding: 0 -1px;
+     line-height: 16px;
+     text-align: center;
+     color: #fff;
+     height: 71px;
+     margin: 0 12px;
+     text-decoration: none;
+}
+ #MainNavi107.MainNavi a.lone_link:hover {
+     color: #fbe988;
+     background:url(/Content/image/zh/daohang_2_03.jpg) center no-repeat;
+}
+/*主导航标题*/
+ #MainNavi107.MainNavi a span.navi_title {
+     margin-top: 10px;
+     font-size:14px;
+     font-weight: bold;
+     display: block;
+}
+/*主导航副标题*/
+ #MainNavi107.MainNavi a span.navi_ftitle {
+     display: block;
+}
+/*二级导航*/
+ #MainNavi107.MainNavi .children {
+     display: none;
+     text-align: center;
+     position: absolute;
+     left: 0;
+     top: 100%;
+     white-space: nowrap;
+     width: 100px;
+     z-index: 99 !important;
+     font-weight: bold;
+     background:rgba(33,33,34,0.6);
+}
+/*二级导航li结构*/
+ #MainNavi107.MainNavi .children li {
+     vertical-align: middle;
+     height: 24px;
+     line-height:24px;
+     margin-top: 1px;
+     border-top: 1px solid #fff;
+     *zoom: 1;
+}
+/*二级导航链接*/
+ #MainNavi107.MainNavi .children a {
+    /*height: 28px;
+     line-height: 28px;
+     */
+     color: #fff;
+     padding: 0 10px;
+}
+ #MainNavi107.MainNavi .children a:hover {
+     color: #fff;
+}
+ #MainNavi107.MainNavi .children .item a {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_title {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_ftitle{
+     display: none;
+}
+/*激活的节点*/
+ #MainNavi107.MainNavi li.activelink {
+}
+ /*forSeprateConfigStyles*/ 
+/* banner图片挂件*/
+ #AdverSliderLunbo109.AdverSliderLunbo{
+}
+/* height设置成图片高度 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     height:596px;
+}
+/* 挂件头部,需要标题去掉display:none */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_hd{
+     display:none;
+}
+/* 挂件主体部分 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     overflow: hidden;
+     position: relative;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox {
+     display: none;
+     position: absolute;
+     text-align: center;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-container{
+}
+/* 左右按钮 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous{
+     display:block;
+     width:11px;
+     height:29px;
+     overflow: hidden;
+     text-indent: -9999px;
+     margin-right:5px;
+     position: absolute;
+     top: 50%;
+     margin-top: -15px;
+     z-index: 11;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next {
+     background: url(/Content/app_images/rightArrow.png) no-repeat;
+     right: 10px;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous {
+     background: url(/Content/app_images/leftArrow.png) no-repeat;
+     left: 10px;
+}
+/* 圆角标记 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination {
+     position: absolute;
+     bottom: 10px;
+     z-index: 11;
+     left: 50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li {
+     float: left;
+     margin: 0 1px;
+     position: relative;
+     left: -50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a {
+     display: block;
+     width: 13px;
+     height: 0;
+     padding-top: 13px;
+     background: url(/Content/app_images/pagination.png) no-repeat;
+     float: left;
+     overflow: hidden;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a.active,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a:hover.active {
+     background: url(/Content/app_images/pagination_active.png) no-repeat;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:link,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:visited {
+     color: #333;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:hover,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:active {
+     color: #9e2020;
+}
+/*forSeprateConfigStyles*//*挂件主体*/
+ #LeftNaviExpand177.LeftNaviExpand {
+     width:100%px;
+     margin-top: 60px;
+}
+ #LeftNaviExpand177.LeftNaviExpand li{
+     position:relative;
+     *zoom:1;
+     *vertical-align:top;
+}
+/*头部链接*/
+ #LeftNaviExpand177.LeftNaviExpand .firlinkbx{
+     padding:0 10px;
+     height: 35px;
+     line-height: 35px;
+     background:#342922;
+     *zoom:1;
+     vartical-align:middle;
+}
+ #LeftNaviExpand177.LeftNaviExpand a.lone_link {
+     color: #fff;
+     font-size: 14px;
+     font-weight: bold;
+     margin-left: 10px;
+}
+ #LeftNaviExpand177.LeftNaviExpand a.lone_link:hover {
+     color:#f30;
+}
+/*导航一级链接*/
+ #LeftNaviExpand177.LeftNaviExpand .item1 .firlinkbx{
+     height:30px;
+     line-height:30px;
+     padding:0 20px;
+     background: none;
+     border-bottom: 0;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item1 a{
+     color:#333;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item1 a:hover{
+     color:#f30;
+}
+/*导航二级链接*/
+ #LeftNaviExpand177.LeftNaviExpand .item2{
+     height:28px;
+     line-height:28px;
+     padding:0 10px;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item2 a{
+     color:#333;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item2 a:hover{
+     color:#111 
+}
+ #LeftNaviExpand177.LeftNaviExpand .item1 .expend{
+     border-top-color:#999;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item1 .unexpend{
+     border-bottom-color:#999;
+}
+/*收起时的箭头样式,如不需要展开收起效果，加上display:none;
+ */
+ #LeftNaviExpand177.LeftNaviExpand .expend{
+     position:absolute;
+     height:0;
+     width:0;
+     overflow:hidden;
+     right:10px;
+     top:15px;
+}
+/*展开时的箭头样式,如不需要展开收起效果，加上display:none;
+ */
+ #LeftNaviExpand177.LeftNaviExpand .unexpend{
+     position:absolute;
+     height:0;
+     width:0;
+     overflow:hidden;
+     right:10px;
+     top:10px;
+}
+/*一级链接主体*/
+ #LeftNaviExpand177.LeftNaviExpand ul.children1{
+}
+/*二级链接主体*/
+ #LeftNaviExpand177.LeftNaviExpand ul.children2{
+     background:#fafafa;
+     display:none;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item1{
+     border-bottom:1px solid #dfdfdf;
+}
+ /*forSeprateConfigStyles*//* 挂件开始 */
+ #MsgList217.MsgList {
+     width: 100%px;
+     margin-top: 60px;
+}
+/* 挂件头部 */
+ #MsgList217.MsgList .hd {
+     height: 30px;
+     line-height: 30px;
+     font-size: 14px;
+     font-weight: bold;
+     border-bottom: 1px solid #464646;
+     margin-bottom: 20px;
+     padding-left: 20px;
+}
+ #MsgList217.MsgList table {
+     table-layout: fixed;
+     border-collapse: collapse;
+}
+ #MsgList217.MsgList td, #MsgList217.MsgList th {
+     vertical-align: top;
+     padding: 10px;
+}
+ #MsgList217.MsgList th {
+     font-size: 13px;
+     font-weight: bold;
+     text-align: right;
+     width: 100px;
+     color: #333;
+}
+ #MsgList217.MsgList input.title {
+     width: 400px;
+}
+ #MsgList217.MsgList td {
+     padding-left: 20px;
+}
+ #MsgList217.MsgList input.txt {
+     padding: 5px 10px;
+}
+/* 留言内容的样式 */
+ #MsgList217.MsgList textarea.lecontent {
+     width: 400px;
+     height: 100px;
+     padding: 10px;
+     overflow: auto;
+}
+/* 留言列表 */
+ #MsgList217.MsgList .lmg_lists {
+     margin-top: 10px;
+}
+ #MsgList217.MsgList .lmg_lists li {
+     padding: 10px 20px;
+     border-bottom: 1px solid #dfdfdf;
+}
+ #MsgList217.MsgList .lmg_lists a.lg_name {
+     font-weight: bold;
+     color: #333;
+}
+ #MsgList217.MsgList .lmg_lists .lg_time {
+     margin-left: 5px;
+     padding-left: 5px;
+     border-left: 1px solid #999;
+     color: #999;
+}
+/* 留言列表中的留言内容 */
+ #MsgList217.MsgList .lg_content {
+     margin-top: 10px;
+}
+/* 分页 */
+ #MsgList217.MsgList #pager{
+     font-size: 12px;
+     padding: 10px;
+     text-align: center;
+     color: #000;
+}
+ /*forSeprateConfigStyles*/ 
+/*挂件主体*/
+ #MainNavi107.MainNavi {
+  margin-top: 40px;
+}
+/*一级导航*/
+/*可以设置分割线背景*/
+ #MainNavi107.MainNavi li.parent {
+     height: 49px;
+     float: left;
+     position: relative;
+     z-index: 99;
+}
+/*一级导航链接*/
+ #MainNavi107.MainNavi a.lone_link {
+     display: inline-block;
+     padding: 0 -1px;
+     line-height: 16px;
+     text-align: center;
+     color: #fff;
+     height: 71px;
+     margin: 0 12px;
+     text-decoration: none;
+}
+ #MainNavi107.MainNavi a.lone_link:hover {
+     color: #fbe988;
+     background:url(/Content/image/zh/daohang_2_03.jpg) center no-repeat;
+}
+/*主导航标题*/
+ #MainNavi107.MainNavi a span.navi_title {
+     margin-top: 10px;
+     font-size:14px;
+     font-weight: bold;
+     display: block;
+}
+/*主导航副标题*/
+ #MainNavi107.MainNavi a span.navi_ftitle {
+     display: block;
+}
+/*二级导航*/
+ #MainNavi107.MainNavi .children {
+     display: none;
+     text-align: center;
+     position: absolute;
+     left: 0;
+     top: 100%;
+     white-space: nowrap;
+     width: 100px;
+     z-index: 99 !important;
+     font-weight: bold;
+     background:rgba(33,33,34,0.6);
+}
+/*二级导航li结构*/
+ #MainNavi107.MainNavi .children li {
+     vertical-align: middle;
+     height: 24px;
+     line-height:24px;
+     margin-top: 1px;
+     border-top: 1px solid #fff;
+     *zoom: 1;
+}
+/*二级导航链接*/
+ #MainNavi107.MainNavi .children a {
+    /*height: 28px;
+     line-height: 28px;
+     */
+     color: #fff;
+     padding: 0 10px;
+}
+ #MainNavi107.MainNavi .children a:hover {
+     color: #fff;
+}
+ #MainNavi107.MainNavi .children .item a {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_title {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_ftitle{
+     display: none;
+}
+/*激活的节点*/
+ #MainNavi107.MainNavi li.activelink {
+}
+ /*forSeprateConfigStyles*/ 
+/* banner图片挂件*/
+ #AdverSliderLunbo109.AdverSliderLunbo{
+}
+/* height设置成图片高度 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     height:596px;
+}
+/* 挂件头部,需要标题去掉display:none */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_hd{
+     display:none;
+}
+/* 挂件主体部分 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     overflow: hidden;
+     position: relative;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox {
+     display: none;
+     position: absolute;
+     text-align: center;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-container{
+}
+/* 左右按钮 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous{
+     display:block;
+     width:11px;
+     height:29px;
+     overflow: hidden;
+     text-indent: -9999px;
+     margin-right:5px;
+     position: absolute;
+     top: 50%;
+     margin-top: -15px;
+     z-index: 11;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next {
+     background: url(/Content/app_images/rightArrow.png) no-repeat;
+     right: 10px;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous {
+     background: url(/Content/app_images/leftArrow.png) no-repeat;
+     left: 10px;
+}
+/* 圆角标记 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination {
+     position: absolute;
+     bottom: 10px;
+     z-index: 11;
+     left: 50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li {
+     float: left;
+     margin: 0 1px;
+     position: relative;
+     left: -50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a {
+     display: block;
+     width: 13px;
+     height: 0;
+     padding-top: 13px;
+     background: url(/Content/app_images/pagination.png) no-repeat;
+     float: left;
+     overflow: hidden;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a.active,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a:hover.active {
+     background: url(/Content/app_images/pagination_active.png) no-repeat;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:link,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:visited {
+     color: #333;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:hover,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:active {
+     color: #9e2020;
+}
+/*forSeprateConfigStyles*//*挂件主体*/
+ #LeftNaviExpand177.LeftNaviExpand {
+     width:100%px;
+     margin-top: 60px;
+}
+ #LeftNaviExpand177.LeftNaviExpand li{
+     position:relative;
+     *zoom:1;
+     *vertical-align:top;
+}
+/*头部链接*/
+ #LeftNaviExpand177.LeftNaviExpand .firlinkbx{
+     padding:0 10px;
+     height: 35px;
+     line-height: 35px;
+     background:#342922;
+     *zoom:1;
+     vartical-align:middle;
+}
+ #LeftNaviExpand177.LeftNaviExpand a.lone_link {
+     color: #fff;
+     font-size: 14px;
+     font-weight: bold;
+     margin-left: 10px;
+}
+ #LeftNaviExpand177.LeftNaviExpand a.lone_link:hover {
+     color:#f30;
+}
+/*导航一级链接*/
+ #LeftNaviExpand177.LeftNaviExpand .item1 .firlinkbx{
+     height:30px;
+     line-height:30px;
+     padding:0 20px;
+     background: none;
+     border-bottom: 0;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item1 a{
+     color:#333;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item1 a:hover{
+     color:#f30;
+}
+/*导航二级链接*/
+ #LeftNaviExpand177.LeftNaviExpand .item2{
+     height:28px;
+     line-height:28px;
+     padding:0 10px;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item2 a{
+     color:#333;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item2 a:hover{
+     color:#111 
+}
+ #LeftNaviExpand177.LeftNaviExpand .item1 .expend{
+     border-top-color:#999;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item1 .unexpend{
+     border-bottom-color:#999;
+}
+/*收起时的箭头样式,如不需要展开收起效果，加上display:none;
+ */
+ #LeftNaviExpand177.LeftNaviExpand .expend{
+     position:absolute;
+     height:0;
+     width:0;
+     overflow:hidden;
+     right:10px;
+     top:15px;
+}
+/*展开时的箭头样式,如不需要展开收起效果，加上display:none;
+ */
+ #LeftNaviExpand177.LeftNaviExpand .unexpend{
+     position:absolute;
+     height:0;
+     width:0;
+     overflow:hidden;
+     right:10px;
+     top:10px;
+}
+/*一级链接主体*/
+ #LeftNaviExpand177.LeftNaviExpand ul.children1{
+}
+/*二级链接主体*/
+ #LeftNaviExpand177.LeftNaviExpand ul.children2{
+     background:#fafafa;
+     display:none;
+}
+ #LeftNaviExpand177.LeftNaviExpand .item1{
+     border-bottom:1px solid #dfdfdf;
+}
+ /*forSeprateConfigStyles*//* 插件开始 */
+ #CommPageInfo218.CommPageInfo {
+    margin-top: 60px;
+}
+ #CommPageInfo218.CommPageInfo .newsinfo_Breadcrumbs {
+     height: 30px;
+     line-height: 30px;
+     border-bottom: 1px solid #464646;
+}
+/* 插件头部 */
+ #CommPageInfo218.CommPageInfo .titlehd {
+     float: left;
+}
+/* 插件头部标题 */
+ #CommPageInfo218.CommPageInfo .title {
+     font-size: 14px;
+     font-weight: bold;
+     padding-left: 20px;
+}
+ #CommPageInfo218.CommPageInfo .class_bread {
+     display: none;
+}
+/* 面包屑地址 */
+ #CommPageInfo218.CommPageInfo .mbx_dv {
+     float: right;
+}
+/* 挂件标题 */
+ #CommPageInfo218.CommPageInfo .hd {
+     text-align: center;
+     padding: 10px 0 20px;
+     display: none;
+}
+ #CommPageInfo218.CommPageInfo .aboutnews {
+     text-align: left;
+     padding-bottom: 20px;
+     font-weight: bold;
+}
+ #CommPageInfo218.CommPageInfo .hd .con_title {
+     color: #000;
+     font-size: 26px;
+     font-weight: 800;
+     line-height: 30px;
+     margin-bottom: 6px;
+     display: none;
+}
+ #CommPageInfo218.CommPageInfo .con_subbx {
+     color: #7e7e7e;
+}
+/* 挂件主体 */
+ #CommPageInfo218.CommPageInfo .bd {
+     padding: 0 20px 20px;
+}
+/* 挂件的内容简介 */
+ #CommPageInfo218.CommPageInfo .con_summer {
+     border: 1px solid #dfdfdf;
+     background: #efefef;
+     padding: 20px;
+     color: #666;
+}
+/* 挂件的内容详情 */
+ #CommPageInfo218.CommPageInfo .con_bx {
+     margin-top: 20px;
+}
+/* 图片滚动 */
+ #CommPageInfo218.CommPageInfo .bd_img {
+     width: 720px;
+     margin: 0 auto;
+     position: relative;
+}
+ #CommPageInfo218.CommPageInfo .bd_img_title {
+     line-height: 32px;
+}
+ #CommPageInfo218.CommPageInfo .bd_img_wrap {
+     width: 720px;
+     height: 128px;
+     overflow: hidden;
+}
+ #CommPageInfo218.CommPageInfo .bd_img_wrap ul {
+}
+ #CommPageInfo218.CommPageInfo .bd_img_wrap li {
+     float: left;
+     width: 180px;
+}
+ #CommPageInfo218.CommPageInfo .bd_img_link {
+     text-align: center;
+     display: block;
+     text-align: center;
+}
+ #CommPageInfo218.CommPageInfo .bd_img_link img {
+     width: 140px;
+     height: 100px;
+     border: 1px solid #ccc;
+}
+ #CommPageInfo218.CommPageInfo .bd_img_p {
+     text-align: center;
+     line-height: 26px;
+}
+ #CommPageInfo218.CommPageInfo .bd_img_p a {
+     color: #000;
+}
+ #CommPageInfo218.CommPageInfo .bd_img_p a:hover {
+     color: #f00;
+}
+ #CommPageInfo218.CommPageInfo .bd_img_btn {
+     position: absolute;
+     width: 20px;
+     height: 40px;
+     background: #ccc;
+     text-align: center;
+     line-height: 40px;
+     top: 50%;
+     margin-top: -20px;
+     font-size: 20px;
+     font-weight: bold;
+     color: #000;
+}
+ #CommPageInfo218.CommPageInfo .bd_img_leftBtn {
+     left: -20px;
+}
+ #CommPageInfo218.CommPageInfo .bd_img_rightBtn {
+     right: -20px;
+}
+ #CommPageInfo218.CommPageInfo .textify {
+    /*overflow:hidden;
+     */
+     font-family: Tahoma, Geneva, sans-serif;
+     font-size: 13px;
+     overflow: hidden;
+     position: relative;
+}
+ #CommPageInfo218.CommPageInfo .textify_nav {
+     margin: 10px 0;
+     position: absolute;
+     bottom: 0;
+}
+ #CommPageInfo218.CommPageInfo .textify_nav ul {
+     margin: 0;
+     padding: 0;
+}
+ #CommPageInfo218.CommPageInfo .textify_nav ul li:hover, .textify_nav ul li.selected {
+     background-position: 0 -15px;
+}
+ #CommPageInfo218.CommPageInfo .textify_nav ul li {
+     background-image: url("/Content/app_images/textify_nav.png");
+     background-repeat: no-repeat;
+     float: left;
+     height: 15px;
+     list-style: none outside none;
+     margin-left: 3px;
+     margin-right: 3px;
+     width: 15px;
+     cursor: pointer;
+}
+ /*forSeprateConfigStyles*/ 
+/*挂件主体*/
+ #MainNavi107.MainNavi {
+  margin-top: 40px;
+}
+/*一级导航*/
+/*可以设置分割线背景*/
+ #MainNavi107.MainNavi li.parent {
+     height: 49px;
+     float: left;
+     position: relative;
+     z-index: 99;
+}
+/*一级导航链接*/
+ #MainNavi107.MainNavi a.lone_link {
+     display: inline-block;
+     padding: 0 -1px;
+     line-height: 16px;
+     text-align: center;
+     color: #fff;
+     height: 71px;
+     margin: 0 12px;
+     text-decoration: none;
+}
+ #MainNavi107.MainNavi a.lone_link:hover {
+     color: #fbe988;
+     background:url(/Content/image/zh/daohang_2_03.jpg) center no-repeat;
+}
+/*主导航标题*/
+ #MainNavi107.MainNavi a span.navi_title {
+     margin-top: 10px;
+     font-size:14px;
+     font-weight: bold;
+     display: block;
+}
+/*主导航副标题*/
+ #MainNavi107.MainNavi a span.navi_ftitle {
+     display: block;
+}
+/*二级导航*/
+ #MainNavi107.MainNavi .children {
+     display: none;
+     text-align: center;
+     position: absolute;
+     left: 0;
+     top: 100%;
+     white-space: nowrap;
+     width: 100px;
+     z-index: 99 !important;
+     font-weight: bold;
+     background:rgba(33,33,34,0.6);
+}
+/*二级导航li结构*/
+ #MainNavi107.MainNavi .children li {
+     vertical-align: middle;
+     height: 24px;
+     line-height:24px;
+     margin-top: 1px;
+     border-top: 1px solid #fff;
+     *zoom: 1;
+}
+/*二级导航链接*/
+ #MainNavi107.MainNavi .children a {
+    /*height: 28px;
+     line-height: 28px;
+     */
+     color: #fff;
+     padding: 0 10px;
+}
+ #MainNavi107.MainNavi .children a:hover {
+     color: #fff;
+}
+ #MainNavi107.MainNavi .children .item a {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_title {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_ftitle{
+     display: none;
+}
+/*激活的节点*/
+ #MainNavi107.MainNavi li.activelink {
+}
+ /*forSeprateConfigStyles*/ 
+/* banner图片挂件*/
+ #AdverSliderLunbo109.AdverSliderLunbo{
+}
+/* height设置成图片高度 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     height:596px;
+}
+/* 挂件头部,需要标题去掉display:none */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_hd{
+     display:none;
+}
+/* 挂件主体部分 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     overflow: hidden;
+     position: relative;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox {
+     display: none;
+     position: absolute;
+     text-align: center;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-container{
+}
+/* 左右按钮 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous{
+     display:block;
+     width:11px;
+     height:29px;
+     overflow: hidden;
+     text-indent: -9999px;
+     margin-right:5px;
+     position: absolute;
+     top: 50%;
+     margin-top: -15px;
+     z-index: 11;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next {
+     background: url(/Content/app_images/rightArrow.png) no-repeat;
+     right: 10px;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous {
+     background: url(/Content/app_images/leftArrow.png) no-repeat;
+     left: 10px;
+}
+/* 圆角标记 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination {
+     position: absolute;
+     bottom: 10px;
+     z-index: 11;
+     left: 50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li {
+     float: left;
+     margin: 0 1px;
+     position: relative;
+     left: -50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a {
+     display: block;
+     width: 13px;
+     height: 0;
+     padding-top: 13px;
+     background: url(/Content/app_images/pagination.png) no-repeat;
+     float: left;
+     overflow: hidden;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a.active,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a:hover.active {
+     background: url(/Content/app_images/pagination_active.png) no-repeat;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:link,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:visited {
+     color: #333;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:hover,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:active {
+     color: #9e2020;
+}
+/*forSeprateConfigStyles*//*挂件主体*/
+ #LeftNaviExpand188.LeftNaviExpand {
+   width:100%px;
+     margin-top: 60px;
+}
+ #LeftNaviExpand188.LeftNaviExpand li{
+     position:relative;
+     *zoom:1;
+     *vertical-align:top;
+}
+/*头部链接*/
+ #LeftNaviExpand188.LeftNaviExpand .firlinkbx{
+     padding:0 10px;
+     height: 35px;
+     line-height: 35px;
+     background:#342922;
+     *zoom:1;
+     vartical-align:middle;
+}
+ #LeftNaviExpand188.LeftNaviExpand a.lone_link {
+     color: #fff;
+     font-size: 14px;
+     font-weight: bold;
+     margin-left: 10px;
+}
+ #LeftNaviExpand188.LeftNaviExpand a.lone_link:hover {
+     color:#f30;
+}
+/*导航一级链接*/
+ #LeftNaviExpand188.LeftNaviExpand .item1 .firlinkbx{
+     height:30px;
+     line-height:30px;
+     padding:0 20px;
+     background: none;
+     border-bottom: 0;
+}
+ #LeftNaviExpand188.LeftNaviExpand .item1 a{
+     color:#333;
+}
+ #LeftNaviExpand188.LeftNaviExpand .item1 a:hover{
+     color:#f30;
+}
+/*导航二级链接*/
+ #LeftNaviExpand188.LeftNaviExpand .item2{
+     height:28px;
+     line-height:28px;
+     padding:0 10px;
+}
+ #LeftNaviExpand188.LeftNaviExpand .item2 a{
+     color:#333;
+}
+ #LeftNaviExpand188.LeftNaviExpand .item2 a:hover{
+     color:#111 
+}
+ #LeftNaviExpand188.LeftNaviExpand .item1 .expend{
+     border-top-color:#999;
+}
+ #LeftNaviExpand188.LeftNaviExpand .item1 .unexpend{
+     border-bottom-color:#999;
+}
+/*收起时的箭头样式,如不需要展开收起效果，加上display:none;
+ */
+ #LeftNaviExpand188.LeftNaviExpand .expend{
+     position:absolute;
+     height:0;
+     width:0;
+     overflow:hidden;
+     right:10px;
+     top:15px;
+}
+/*展开时的箭头样式,如不需要展开收起效果，加上display:none;
+ */
+ #LeftNaviExpand188.LeftNaviExpand .unexpend{
+     position:absolute;
+     height:0;
+     width:0;
+     overflow:hidden;
+     right:10px;
+     top:10px;
+}
+/*一级链接主体*/
+ #LeftNaviExpand188.LeftNaviExpand ul.children1{
+}
+/*二级链接主体*/
+ #LeftNaviExpand188.LeftNaviExpand ul.children2{
+     background:#fafafa;
+     display:none;
+}
+ #LeftNaviExpand188.LeftNaviExpand .item1{
+     border-bottom:1px solid #dfdfdf;
+}
+ /*forSeprateConfigStyles*/ #NewsPagingList190.NewsPagingList {
+     width:100%px;
+   margin-top: 60px;
+}
+/*头部.hd可以设置头部背景*/
+ #NewsPagingList190.NewsPagingList .hd{
+     height: 30px;
+     line-height: 30px;
+     color: #000;
+     font-size: 20px;
+     border-bottom: 1px solid #000;
+}
+ #NewsPagingList190.NewsPagingList .hd .title{
+     font-size: 14px;
+     font-weight: bold;
+     padding-left: 20px;
+}
+/*新闻列表面包屑*/
+ #NewsPagingList190.NewsPagingList .hd .mbx_dv{
+}
+/*列表主体.bd*/
+ #NewsPagingList190.NewsPagingList .bd{
+     margin-bottom: 5px;
+}
+/*单个列表li*/
+ #NewsPagingList190.NewsPagingList li{
+     border-bottom: 1px dashed #afafaf;
+     padding-left: 30px;
+     font-size:12px;
+}
+/*列表链接*/
+ #NewsPagingList190.NewsPagingList li a {
+     float:left;
+     display:inline-block;
+     height:40px;
+     line-height:40px;
+}
+/*列表时间*/
+ #NewsPagingList190.NewsPagingList li .time{
+     float:right;
+     height:40px;
+     line-height:40px;
+     padding-right:20px;
+     color:#666;
+}
+/*分页样式*/
+ #NewsPagingList190.NewsPagingList #pager {
+     font-size: 12px;
+     padding: 10px;
+     text-align: center;
+     color: #000;
+}
+ #lineheight {
+     height: 40px;
+}
+ /*forSeprateConfigStyles*/ 
+/*挂件主体*/
+ #MainNavi107.MainNavi {
+  margin-top: 40px;
+}
+/*一级导航*/
+/*可以设置分割线背景*/
+ #MainNavi107.MainNavi li.parent {
+     height: 49px;
+     float: left;
+     position: relative;
+     z-index: 99;
+}
+/*一级导航链接*/
+ #MainNavi107.MainNavi a.lone_link {
+     display: inline-block;
+     padding: 0 -1px;
+     line-height: 16px;
+     text-align: center;
+     color: #fff;
+     height: 71px;
+     margin: 0 12px;
+     text-decoration: none;
+}
+ #MainNavi107.MainNavi a.lone_link:hover {
+     color: #fbe988;
+     background:url(/Content/image/zh/daohang_2_03.jpg) center no-repeat;
+}
+/*主导航标题*/
+ #MainNavi107.MainNavi a span.navi_title {
+     margin-top: 10px;
+     font-size:14px;
+     font-weight: bold;
+     display: block;
+}
+/*主导航副标题*/
+ #MainNavi107.MainNavi a span.navi_ftitle {
+     display: block;
+}
+/*二级导航*/
+ #MainNavi107.MainNavi .children {
+     display: none;
+     text-align: center;
+     position: absolute;
+     left: 0;
+     top: 100%;
+     white-space: nowrap;
+     width: 100px;
+     z-index: 99 !important;
+     font-weight: bold;
+     background:rgba(33,33,34,0.6);
+}
+/*二级导航li结构*/
+ #MainNavi107.MainNavi .children li {
+     vertical-align: middle;
+     height: 24px;
+     line-height:24px;
+     margin-top: 1px;
+     border-top: 1px solid #fff;
+     *zoom: 1;
+}
+/*二级导航链接*/
+ #MainNavi107.MainNavi .children a {
+    /*height: 28px;
+     line-height: 28px;
+     */
+     color: #fff;
+     padding: 0 10px;
+}
+ #MainNavi107.MainNavi .children a:hover {
+     color: #fff;
+}
+ #MainNavi107.MainNavi .children .item a {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_title {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_ftitle{
+     display: none;
+}
+/*激活的节点*/
+ #MainNavi107.MainNavi li.activelink {
+}
+ /*forSeprateConfigStyles*/ 
+/* banner图片挂件*/
+ #AdverSliderLunbo109.AdverSliderLunbo{
+}
+/* height设置成图片高度 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     height:596px;
+}
+/* 挂件头部,需要标题去掉display:none */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_hd{
+     display:none;
+}
+/* 挂件主体部分 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     overflow: hidden;
+     position: relative;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox {
+     display: none;
+     position: absolute;
+     text-align: center;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-container{
+}
+/* 左右按钮 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous{
+     display:block;
+     width:11px;
+     height:29px;
+     overflow: hidden;
+     text-indent: -9999px;
+     margin-right:5px;
+     position: absolute;
+     top: 50%;
+     margin-top: -15px;
+     z-index: 11;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next {
+     background: url(/Content/app_images/rightArrow.png) no-repeat;
+     right: 10px;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous {
+     background: url(/Content/app_images/leftArrow.png) no-repeat;
+     left: 10px;
+}
+/* 圆角标记 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination {
+     position: absolute;
+     bottom: 10px;
+     z-index: 11;
+     left: 50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li {
+     float: left;
+     margin: 0 1px;
+     position: relative;
+     left: -50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a {
+     display: block;
+     width: 13px;
+     height: 0;
+     padding-top: 13px;
+     background: url(/Content/app_images/pagination.png) no-repeat;
+     float: left;
+     overflow: hidden;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a.active,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a:hover.active {
+     background: url(/Content/app_images/pagination_active.png) no-repeat;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:link,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:visited {
+     color: #333;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:hover,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:active {
+     color: #9e2020;
+}
+/*forSeprateConfigStyles*//*挂件主体*/
+ #PicProductList185.PicProductList {
+     width: 100%px;
+     margin-top: 50px;
+    
+}
+/*头部结构可以设置头部背景*/
+ #PicProductList185.PicProductList .hd {
+     padding: 20px 0px 0px 0px;
+     height: 40px;
+     line-height: 40px;
+     border-bottom: 1px solid #000;
+     margin: 0px 20px;
+}
+/*头部更多链接的样式*/
+ #PicProductList185.PicProductList .hd .more {
+     display: none;
+     float: right;
+}
+/*头部标题*/
+ #PicProductList185.PicProductList .hd h3 {
+     font-size: 14px;
+     font-weight: bold;
+     padding-left: 20px;
+}
+ #PicProductList185.PicProductList .hd .mbx_dv{
+     float: right;
+}
+/*列表主体结构*/
+ #PicProductList185.PicProductList .bd {
+}
+/*列表元素主体*/
+ #PicProductList185.PicProductList .bd li {
+     float: left;
+     padding: 1px;
+     margin: 20px 0 0 28px;
+     display: inline;
+     text-align: center;
+}
+/*列表图片*/
+ #PicProductList185.PicProductList .bd li img {
+     width: 248px;
+     height: 167px;
+     border: 1px solid #dfdfdf;
+     display: inline-block;
+     vertical-align: middle;
+}
+/*列表元素的标题链接结构*/
+ #PicProductList185.PicProductList .bd .link_wrap {
+     height: 30px;
+     line-height: 30px;
+     width:248px;
+}
+ #PicProductList185.PicProductList .bd .pd_link {
+     margin: 0 10px;
+     white-space: nowrap;
+     overflow: hidden;
+     color: #000;
+}
+ #PicProductList185.PicProductList .bd .pd_link a{
+     color: #000;
+}
+ #PicProductList185.PicProductList .bd .pd_link a:hover{
+     color: #f30;
+}
+ #PicProductList185.PicProductList .ppl_content {
+     padding:10px;
+     color:#333;
+}
+ #PicProductList185.PicProductList .jqzoom {
+     display:block;
+}
+ #PicProductList185.PicProductList #pager {
+     font-size: 12px;
+     padding: 10px;
+     text-align: center;
+     color: #000;
+}
+/*设置图片列表放大镜*/
+ .jqzoom {
+     position: relative;
+}
+ .zoomdiv {
+     z-index: 999;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     width: 300px;
+     height: 300px;
+     background: #fff;
+     border:1px solid #ccc;
+     display:none;
+     text-align: center;
+     overflow: hidden;
+}
+ .zoomdiv img{
+     width:400px!important;
+     height:500px!important;
+}
+ .jqZoomPup {
+     z-index: 999;
+     visibility: hidden;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     border: 1px solid #aaa;
+     background: #fff;
+     opacity: 0.5;
+     -moz-opacity: 0.5;
+     -khtml-opacity: 0.5;
+     filter: alpha(Opacity=50);
+}
+/*lightbox插件样式*/
+ #jquery-overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 555px;
+     z-index: 90;
+}
+ #jquery-lightbox {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     text-align: center;
+     line-height: 0;
+     z-index: 100;
+}
+ #jquery-lightbox a img {
+     border: none;
+}
+ #lightbox-container-image-box {
+     position: relative;
+     width: 250px;
+     height: 250px;
+     margin: 0 auto;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+     background-color: #fff;
+}
+ #lightbox-container-image {
+     padding: 10px;
+}
+ #lightbox-loading {
+     position: absolute;
+     top: 40%;
+     left: 0%;
+     width: 100%;
+     height: 25%;
+     text-align: center;
+     line-height: 0;
+     background: url(../Content/app_images/lightbox-ico-loading.gif) center top no-repeat;
+}
+ #lightbox-nav {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 10;
+}
+ #lightbox-container-image-box > #lightbox-nav {
+     left: 0;
+}
+ #lightbox-nav a {
+     outline: none;
+}
+ #lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+     display: block;
+     width: 49%;
+     height: 100%;
+     zoom: 1;
+}
+ #lightbox-nav-btnPrev {
+     left: 0;
+     float: left;
+}
+ #lightbox-nav-btnNext {
+     right: 0;
+     float: right;
+}
+ #lightbox-container-image-data-box {
+     font: 12px/1.4em Tahoma;
+     overflow: auto;
+     width: 100%;
+     margin: 0 auto;
+     padding: 0 10px 0;
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+     background-color: #fff;
+}
+ #lightbox-container-image-data {
+     padding: 0 10px;
+     color: #666;
+}
+ #lightbox-container-image-data #lightbox-image-details {
+     float: left;
+     width: 70%;
+     text-align: left;
+}
+ #lightbox-image-details-caption {
+     font-weight: bold;
+}
+ #lightbox-image-details-currentNumber {
+     display: block;
+     clear: left;
+     padding-bottom: 1.0em;
+     color: #999;
+}
+ #lightbox-secNav-btnClose {
+     float: right;
+     width: 30px;
+     height: 30px;
+     background: url(../app_images/lightbox-btn-close.gif) center center no-repeat;
+}
+ #jquery-lightbox #lightbox-nav-btnPrev {
+     display: block;
+     height: 380px;
+     background: url(../app_images/lightbox-blank.gif) no-repeat transparent;
+}
+ #jquery-lightbox #lightbox-nav-btnPrev:hover {
+     background: url(../app_images/lightbox-btn-prev.gif) left 15% no-repeat;
+}
+ #jquery-lightbox #lightbox-nav-btnNext {
+     display: block;
+     height: 380px;
+     background: url(../app_images/lightbox-blank.gif) no-repeat transparent;
+}
+ #jquery-lightbox #lightbox-nav-btnNext:hover {
+     background: url(../app_images/lightbox-btn-next.gif) right 15% no-repeat;
+}
+ /*forSeprateConfigStyles*/ 
+/*挂件主体*/
+ #MainNavi107.MainNavi {
+  margin-top: 40px;
+}
+/*一级导航*/
+/*可以设置分割线背景*/
+ #MainNavi107.MainNavi li.parent {
+     height: 49px;
+     float: left;
+     position: relative;
+     z-index: 99;
+}
+/*一级导航链接*/
+ #MainNavi107.MainNavi a.lone_link {
+     display: inline-block;
+     padding: 0 -1px;
+     line-height: 16px;
+     text-align: center;
+     color: #fff;
+     height: 71px;
+     margin: 0 12px;
+     text-decoration: none;
+}
+ #MainNavi107.MainNavi a.lone_link:hover {
+     color: #fbe988;
+     background:url(/Content/image/zh/daohang_2_03.jpg) center no-repeat;
+}
+/*主导航标题*/
+ #MainNavi107.MainNavi a span.navi_title {
+     margin-top: 10px;
+     font-size:14px;
+     font-weight: bold;
+     display: block;
+}
+/*主导航副标题*/
+ #MainNavi107.MainNavi a span.navi_ftitle {
+     display: block;
+}
+/*二级导航*/
+ #MainNavi107.MainNavi .children {
+     display: none;
+     text-align: center;
+     position: absolute;
+     left: 0;
+     top: 100%;
+     white-space: nowrap;
+     width: 100px;
+     z-index: 99 !important;
+     font-weight: bold;
+     background:rgba(33,33,34,0.6);
+}
+/*二级导航li结构*/
+ #MainNavi107.MainNavi .children li {
+     vertical-align: middle;
+     height: 24px;
+     line-height:24px;
+     margin-top: 1px;
+     border-top: 1px solid #fff;
+     *zoom: 1;
+}
+/*二级导航链接*/
+ #MainNavi107.MainNavi .children a {
+    /*height: 28px;
+     line-height: 28px;
+     */
+     color: #fff;
+     padding: 0 10px;
+}
+ #MainNavi107.MainNavi .children a:hover {
+     color: #fff;
+}
+ #MainNavi107.MainNavi .children .item a {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_title {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_ftitle{
+     display: none;
+}
+/*激活的节点*/
+ #MainNavi107.MainNavi li.activelink {
+}
+ /*forSeprateConfigStyles*/ 
+/* banner图片挂件*/
+ #AdverSliderLunbo109.AdverSliderLunbo{
+}
+/* height设置成图片高度 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     height:596px;
+}
+/* 挂件头部,需要标题去掉display:none */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_hd{
+     display:none;
+}
+/* 挂件主体部分 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     overflow: hidden;
+     position: relative;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox {
+     display: none;
+     position: absolute;
+     text-align: center;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-container{
+}
+/* 左右按钮 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous{
+     display:block;
+     width:11px;
+     height:29px;
+     overflow: hidden;
+     text-indent: -9999px;
+     margin-right:5px;
+     position: absolute;
+     top: 50%;
+     margin-top: -15px;
+     z-index: 11;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next {
+     background: url(/Content/app_images/rightArrow.png) no-repeat;
+     right: 10px;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous {
+     background: url(/Content/app_images/leftArrow.png) no-repeat;
+     left: 10px;
+}
+/* 圆角标记 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination {
+     position: absolute;
+     bottom: 10px;
+     z-index: 11;
+     left: 50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li {
+     float: left;
+     margin: 0 1px;
+     position: relative;
+     left: -50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a {
+     display: block;
+     width: 13px;
+     height: 0;
+     padding-top: 13px;
+     background: url(/Content/app_images/pagination.png) no-repeat;
+     float: left;
+     overflow: hidden;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a.active,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a:hover.active {
+     background: url(/Content/app_images/pagination_active.png) no-repeat;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:link,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:visited {
+     color: #333;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:hover,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:active {
+     color: #9e2020;
+}
+/*forSeprateConfigStyles*//*挂件主体*/
+ #LeftNaviExpand188.LeftNaviExpand {
+   width:100%px;
+     margin-top: 60px;
+}
+ #LeftNaviExpand188.LeftNaviExpand li{
+     position:relative;
+     *zoom:1;
+     *vertical-align:top;
+}
+/*头部链接*/
+ #LeftNaviExpand188.LeftNaviExpand .firlinkbx{
+     padding:0 10px;
+     height: 35px;
+     line-height: 35px;
+     background:#342922;
+     *zoom:1;
+     vartical-align:middle;
+}
+ #LeftNaviExpand188.LeftNaviExpand a.lone_link {
+     color: #fff;
+     font-size: 14px;
+     font-weight: bold;
+     margin-left: 10px;
+}
+ #LeftNaviExpand188.LeftNaviExpand a.lone_link:hover {
+     color:#f30;
+}
+/*导航一级链接*/
+ #LeftNaviExpand188.LeftNaviExpand .item1 .firlinkbx{
+     height:30px;
+     line-height:30px;
+     padding:0 20px;
+     background: none;
+     border-bottom: 0;
+}
+ #LeftNaviExpand188.LeftNaviExpand .item1 a{
+     color:#333;
+}
+ #LeftNaviExpand188.LeftNaviExpand .item1 a:hover{
+     color:#f30;
+}
+/*导航二级链接*/
+ #LeftNaviExpand188.LeftNaviExpand .item2{
+     height:28px;
+     line-height:28px;
+     padding:0 10px;
+}
+ #LeftNaviExpand188.LeftNaviExpand .item2 a{
+     color:#333;
+}
+ #LeftNaviExpand188.LeftNaviExpand .item2 a:hover{
+     color:#111 
+}
+ #LeftNaviExpand188.LeftNaviExpand .item1 .expend{
+     border-top-color:#999;
+}
+ #LeftNaviExpand188.LeftNaviExpand .item1 .unexpend{
+     border-bottom-color:#999;
+}
+/*收起时的箭头样式,如不需要展开收起效果，加上display:none;
+ */
+ #LeftNaviExpand188.LeftNaviExpand .expend{
+     position:absolute;
+     height:0;
+     width:0;
+     overflow:hidden;
+     right:10px;
+     top:15px;
+}
+/*展开时的箭头样式,如不需要展开收起效果，加上display:none;
+ */
+ #LeftNaviExpand188.LeftNaviExpand .unexpend{
+     position:absolute;
+     height:0;
+     width:0;
+     overflow:hidden;
+     right:10px;
+     top:10px;
+}
+/*一级链接主体*/
+ #LeftNaviExpand188.LeftNaviExpand ul.children1{
+}
+/*二级链接主体*/
+ #LeftNaviExpand188.LeftNaviExpand ul.children2{
+     background:#fafafa;
+     display:none;
+}
+ #LeftNaviExpand188.LeftNaviExpand .item1{
+     border-bottom:1px solid #dfdfdf;
+}
+ /*forSeprateConfigStyles*//*挂件主体*/
+ #NewsInfo198.NewsInfo {
+ margin-top: 60px;
+}
+/*挂件头部样式*/
+ #NewsInfo198.NewsInfo .newsinfo_Breadcrumbs{
+     display: none;
+}
+/*挂件头部标题样式*/
+ #NewsInfo198.NewsInfo .newsinfo_Breadcrumbs .title{
+     float:left;
+     display:inline;
+     font-size: 14px;
+     font-weight: bold;
+     margin: 10px 0 0 20px;
+}
+/*新闻头部主体包含标题和点击次数等*/
+ #NewsInfo198.NewsInfo .hd {
+     text-align:center;
+     padding:20px 0;
+}
+/*新闻正文标题样式*/
+ #NewsInfo198.NewsInfo .hd .con_title {
+     color: #000;
+     font-size: 20px;
+     font-weight: 800;
+     line-height: 30px;
+     margin-bottom: 10px;
+}
+ #NewsInfo198.NewsInfo .con_subbx {
+     color:#7e7e7e;
+}
+ #NewsInfo198.NewsInfo .con_subbx span {
+     padding-left:20px;
+}
+/*新闻主体内容内容*/
+ #NewsInfo198.NewsInfo .newsinfo_assemble .bd {
+     padding:0 20px 20px;
+}
+/*新闻摘要*/
+ #NewsInfo198.NewsInfo .consummer {
+     border:1px solid #dfdfdf;
+     background:#efefef;
+     padding:20px;
+     color:#666;
+}
+/*新闻详细内容*/
+ #NewsInfo198.NewsInfo .conbx {
+     margin:20px 0;
+}
+/*新闻标题图片*/
+ #NewsInfo198.NewsInfo .QcDV img {
+     display: none;
+}
+/*上一条下一条新闻*/
+ #NewsInfo198.NewsInfo .newspn{
+     padding: 10px 0 10px 10px;
+}
+/*相关新闻*/
+ #NewsInfo198.NewsInfo .RecNews{
+     padding:0 0 0 20px;
+}
+ #NewsInfo198.NewsInfo .RecNews .aboutnews {
+     text-align:left;
+     padding-bottom:10px;
+     font-weight:bold;
+}
+ #NewsInfo198.NewsInfo .RecNews li{
+     line-height: 24px;
+     height: 24px;
+}
+ /*forSeprateConfigStyles*/ 
+/*挂件主体*/
+ #MainNavi107.MainNavi {
+  margin-top: 40px;
+}
+/*一级导航*/
+/*可以设置分割线背景*/
+ #MainNavi107.MainNavi li.parent {
+     height: 49px;
+     float: left;
+     position: relative;
+     z-index: 99;
+}
+/*一级导航链接*/
+ #MainNavi107.MainNavi a.lone_link {
+     display: inline-block;
+     padding: 0 -1px;
+     line-height: 16px;
+     text-align: center;
+     color: #fff;
+     height: 71px;
+     margin: 0 12px;
+     text-decoration: none;
+}
+ #MainNavi107.MainNavi a.lone_link:hover {
+     color: #fbe988;
+     background:url(/Content/image/zh/daohang_2_03.jpg) center no-repeat;
+}
+/*主导航标题*/
+ #MainNavi107.MainNavi a span.navi_title {
+     margin-top: 10px;
+     font-size:14px;
+     font-weight: bold;
+     display: block;
+}
+/*主导航副标题*/
+ #MainNavi107.MainNavi a span.navi_ftitle {
+     display: block;
+}
+/*二级导航*/
+ #MainNavi107.MainNavi .children {
+     display: none;
+     text-align: center;
+     position: absolute;
+     left: 0;
+     top: 100%;
+     white-space: nowrap;
+     width: 100px;
+     z-index: 99 !important;
+     font-weight: bold;
+     background:rgba(33,33,34,0.6);
+}
+/*二级导航li结构*/
+ #MainNavi107.MainNavi .children li {
+     vertical-align: middle;
+     height: 24px;
+     line-height:24px;
+     margin-top: 1px;
+     border-top: 1px solid #fff;
+     *zoom: 1;
+}
+/*二级导航链接*/
+ #MainNavi107.MainNavi .children a {
+    /*height: 28px;
+     line-height: 28px;
+     */
+     color: #fff;
+     padding: 0 10px;
+}
+ #MainNavi107.MainNavi .children a:hover {
+     color: #fff;
+}
+ #MainNavi107.MainNavi .children .item a {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_title {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_ftitle{
+     display: none;
+}
+/*激活的节点*/
+ #MainNavi107.MainNavi li.activelink {
+}
+ /*forSeprateConfigStyles*/ 
+/* banner图片挂件*/
+ #AdverSliderLunbo109.AdverSliderLunbo{
+}
+/* height设置成图片高度 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     height:596px;
+}
+/* 挂件头部,需要标题去掉display:none */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_hd{
+     display:none;
+}
+/* 挂件主体部分 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     overflow: hidden;
+     position: relative;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox {
+     display: none;
+     position: absolute;
+     text-align: center;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-container{
+}
+/* 左右按钮 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous{
+     display:block;
+     width:11px;
+     height:29px;
+     overflow: hidden;
+     text-indent: -9999px;
+     margin-right:5px;
+     position: absolute;
+     top: 50%;
+     margin-top: -15px;
+     z-index: 11;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next {
+     background: url(/Content/app_images/rightArrow.png) no-repeat;
+     right: 10px;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous {
+     background: url(/Content/app_images/leftArrow.png) no-repeat;
+     left: 10px;
+}
+/* 圆角标记 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination {
+     position: absolute;
+     bottom: 10px;
+     z-index: 11;
+     left: 50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li {
+     float: left;
+     margin: 0 1px;
+     position: relative;
+     left: -50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a {
+     display: block;
+     width: 13px;
+     height: 0;
+     padding-top: 13px;
+     background: url(/Content/app_images/pagination.png) no-repeat;
+     float: left;
+     overflow: hidden;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a.active,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a:hover.active {
+     background: url(/Content/app_images/pagination_active.png) no-repeat;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:link,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:visited {
+     color: #333;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:hover,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:active {
+     color: #9e2020;
+}
+/*forSeprateConfigStyles*//* 挂件开始 */
+ #JadeProductSearch207.JadeProductSearch {
+     box-shadow: 0px 0px 1px #ccc;
+     -webkit-box-shadow: 0px 0px 1px #ccc;
+     -moz-box-shadow: 0px 0px 1px #ccc;
+     margin: 30px 0px;
+     border: 1px solid #dfdfdf;
+     padding: 50px 50px;
+}
+/* 挂件标题 */
+ #JadeProductSearch207.JadeProductSearch .jade_stitle{
+     height:30px;
+     line-height:30px;
+     font-size:14px;
+     margin-bottom:10px;
+}
+/* 挂件主体 */
+  #JadeProductSearch207.JadeProductSearch .bd{
+}
+  #JadeProductSearch207.JadeProductSearch .jadert_dv {
+     width:200px;
+}
+/* 挂件的搜索部分 */
+  #JadeProductSearch207.JadeProductSearch .class_search{
+     overflow:hidden;
+     margin-bottom:10px;
+}
+/* 挂件搜索的输入框 */
+  #JadeProductSearch207.JadeProductSearch .class_search_input{
+     padding:3px;
+     width: 237px;
+     float:left;
+}
+  #JadeProductSearch207.JadeProductSearch .jade_tip{
+     color:red;
+     display:none;
+}
+/* 挂件搜索的按钮 */
+  #JadeProductSearch207.JadeProductSearch .jade_searchbtn{
+     border: 1px solid #999999;
+     background:#ddd;
+     float: left;
+     height: 22px;
+     line-height: 22px;
+     margin-left: 10px;
+     padding: 0 10px;
+     color:#333;
+}
+  #JadeProductSearch207.JadeProductSearch .jadert_dv .jade_img{
+     width:200px;
+}
+  #JadeProductSearch207.JadeProductSearch .jadert_dv .jade_img{
+     display:none;
+}
+ /*forSeprateConfigStyles*/ 
+/*挂件主体*/
+ #MainNavi107.MainNavi {
+  margin-top: 40px;
+}
+/*一级导航*/
+/*可以设置分割线背景*/
+ #MainNavi107.MainNavi li.parent {
+     height: 49px;
+     float: left;
+     position: relative;
+     z-index: 99;
+}
+/*一级导航链接*/
+ #MainNavi107.MainNavi a.lone_link {
+     display: inline-block;
+     padding: 0 -1px;
+     line-height: 16px;
+     text-align: center;
+     color: #fff;
+     height: 71px;
+     margin: 0 12px;
+     text-decoration: none;
+}
+ #MainNavi107.MainNavi a.lone_link:hover {
+     color: #fbe988;
+     background:url(/Content/image/zh/daohang_2_03.jpg) center no-repeat;
+}
+/*主导航标题*/
+ #MainNavi107.MainNavi a span.navi_title {
+     margin-top: 10px;
+     font-size:14px;
+     font-weight: bold;
+     display: block;
+}
+/*主导航副标题*/
+ #MainNavi107.MainNavi a span.navi_ftitle {
+     display: block;
+}
+/*二级导航*/
+ #MainNavi107.MainNavi .children {
+     display: none;
+     text-align: center;
+     position: absolute;
+     left: 0;
+     top: 100%;
+     white-space: nowrap;
+     width: 100px;
+     z-index: 99 !important;
+     font-weight: bold;
+     background:rgba(33,33,34,0.6);
+}
+/*二级导航li结构*/
+ #MainNavi107.MainNavi .children li {
+     vertical-align: middle;
+     height: 24px;
+     line-height:24px;
+     margin-top: 1px;
+     border-top: 1px solid #fff;
+     *zoom: 1;
+}
+/*二级导航链接*/
+ #MainNavi107.MainNavi .children a {
+    /*height: 28px;
+     line-height: 28px;
+     */
+     color: #fff;
+     padding: 0 10px;
+}
+ #MainNavi107.MainNavi .children a:hover {
+     color: #fff;
+}
+ #MainNavi107.MainNavi .children .item a {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_title {
+     margin-top: 0;
+     font-size:12px;
+     display: block;
+}
+ #MainNavi107.MainNavi .children .item .navi_ftitle{
+     display: none;
+}
+/*激活的节点*/
+ #MainNavi107.MainNavi li.activelink {
+}
+ /*forSeprateConfigStyles*/ 
+/* banner图片挂件*/
+ #AdverSliderLunbo109.AdverSliderLunbo{
+}
+/* height设置成图片高度 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     height:596px;
+}
+/* 挂件头部,需要标题去掉display:none */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_hd{
+     display:none;
+}
+/* 挂件主体部分 */
+ #AdverSliderLunbo109.AdverSliderLunbo .bigImgBanner_bd{
+     overflow: hidden;
+     position: relative;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox {
+     display: none;
+     position: absolute;
+     text-align: center;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-container{
+}
+/* 左右按钮 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous{
+     display:block;
+     width:11px;
+     height:29px;
+     overflow: hidden;
+     text-indent: -9999px;
+     margin-right:5px;
+     position: absolute;
+     top: 50%;
+     margin-top: -15px;
+     z-index: 11;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-next {
+     background: url(/Content/app_images/rightArrow.png) no-repeat;
+     right: 10px;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-previous {
+     background: url(/Content/app_images/leftArrow.png) no-repeat;
+     left: 10px;
+}
+/* 圆角标记 */
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination {
+     position: absolute;
+     bottom: 10px;
+     z-index: 11;
+     left: 50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li {
+     float: left;
+     margin: 0 1px;
+     position: relative;
+     left: -50%;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a {
+     display: block;
+     width: 13px;
+     height: 0;
+     padding-top: 13px;
+     background: url(/Content/app_images/pagination.png) no-repeat;
+     float: left;
+     overflow: hidden;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a.active,#AdverSliderLunbo109.AdverSliderLunbo .slidesjs-pagination li a:hover.active {
+     background: url(/Content/app_images/pagination_active.png) no-repeat;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:link,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:visited {
+     color: #333;
+}
+ #AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:hover,#AdverSliderLunbo109.AdverSliderLunbo .slides_wrapperbox a:active {
+     color: #9e2020;
+}
+/*forSeprateConfigStyles*//* 挂件开始 */
+ #JadeProductDetail216.JadeProductDetail {
+     margin-bottom: 50px;
+     box-shadow: 0px 0px 1px #ccc;
+     -webkit-box-shadow: 0px 0px 1px #ccc;
+     -moz-box-shadow: 0px 0px 1px #ccc;
+     margin: 30px 0px;
+     border: 1px solid #dfdfdf;
+     padding: 50px 50px;
+}
+/* 挂件头部 */
+ #JadeProductDetail216.JadeProductDetail .para_tip {
+}
+/* 挂件头部 */
+ #JadeProductDetail216.JadeProductDetail .hdtitle{
+}
+ #JadeProductDetail216.JadeProductDetail .tip {
+     height: 28px;
+     line-height: 28px;
+     border-bottom: 1px solid #dfdfdf;
+     font-size: 14px;
+     padding: 5px 10px;
+}
+/* 挂件主体 */
+ #JadeProductDetail216.JadeProductDetail .bd{
+}
+ #JadeProductDetail216.JadeProductDetail .line_cell {
+     margin-bottom: 15px;
+}
+ #JadeProductDetail216.JadeProductDetail .para_tip {
+     padding: 5px 10px;
+}
+ /*forSeprateConfigStyles*/
